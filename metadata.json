@@ -1,0 +1,6 @@
+{
+  "name": "KINETIC - Nike E-Commerce Store",
+  "description": "Premium Nike-inspired athletic shoe e-commerce platform with real-time filtering, product variants, interactive cart, coupon discounts, checkout flow, and order management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

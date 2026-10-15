@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-athletic: 'Oswald', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #111111;
+    background-color: #ffffff;
+  }
+}
+
+.font-athletic {
+  font-family: 'Oswald', -apple-system, sans-serif;
+}
+
+/* Custom scrollbars for clean athletic feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2c2c2;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
